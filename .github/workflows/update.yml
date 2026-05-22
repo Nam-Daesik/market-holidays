@@ -29,6 +29,3 @@ jobs:
           git add holidays.csv
           git commit -m "Auto-update holidays.csv" || exit 0
           git push
-
-      - name: Keep Alive
-        uses: gautamkrishnar/keepalive-workflow@v2
